@@ -17,8 +17,8 @@ let chunk = function (array, size) {
 
 
 // test
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-console.log(chunk(arr, 4));
+//var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+//console.log(chunk(arr, 4));
 
 // 取出嵌套数组的所有成员
 function* iterArr(arr) {
@@ -31,7 +31,7 @@ function* iterArr(arr) {
   };
 };
 
-let arr = [ 'a', ['b', 'c'], ['d', 'e'] ];
+let arr = [ 'A', ['b', 'c'], ['d', 'e','a'] ];
 for (let p of iterArr(arr)) {
   console.log(p);
 };
